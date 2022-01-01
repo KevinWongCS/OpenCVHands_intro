@@ -80,4 +80,4 @@ cv2.imshow('Image', img)
 ```
 cv2.waitKey(1)
 ```
-note: # waitKey(0) will pause your screen because it will wait infinitely for keyPress on your keyboard and will not refresh the frame(cap.read()) using your WebCam. waitKey(1) will wait for keyPress for just 1 millisecond and it will continue to refresh and read frame from your webcam using cap.read().
+note: waitKey(0) will pause your screen because it will wait infinitely for keyPress on your keyboard and will not refresh the frame(cap.read()) using your WebCam. waitKey(1) will wait for keyPress for just 1 millisecond and it will continue to refresh and read frame from your webcam using cap.read().
