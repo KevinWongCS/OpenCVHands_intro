@@ -4,7 +4,8 @@ date: 1/1/21\
 file: OpenCVHands_intro\
 desc: openCV handtracking1 from [tutorial](https://www.youtube.com/watch?v=01sAkU_NvOY) 
 
-![result of code](OpenCVHands_intro/hand1.png)
+### Result
+![result of code](hand1.PNG)
 
 1. Import cv2, mediapipe, time
 ```
