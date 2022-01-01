@@ -59,8 +59,8 @@ for id, lm in enumerate(handLms.landmark):
     if id == 0:
         cv2.circle(img, (cx, cy), 35, (205, 0, 235), cv2.FILLED)
 ```
-note: we are using int() to convert the decimals to integers everytime int() is used
-note: drawing a bigger circle for base id, id == 0 is base and id == 4 is a tip of thumb
+note: we are using int() to convert the decimals to integers everytime int() is used\
+note: drawing a bigger circle for base id, id == 0 is base and id == 4 is a tip of thumb\
 note: removing the "if" statement draws the circles settings for all landmarks
 
 9. Displaying framerate
